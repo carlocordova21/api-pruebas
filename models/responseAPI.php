@@ -23,11 +23,11 @@ class ResponseAPI {
       return $this->response;
    }
 
-   public function error401() {
+   public function error401($msg = "Unauthorized") {
       $this->response["status"] = "error";
       $this->response["result"] = array(
          "error_id" => "401",
-         "error_msg" => "Unauthorized",
+         "error_msg" => $msg,
       );
       return $this->response;
    }

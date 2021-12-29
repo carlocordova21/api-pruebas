@@ -34,8 +34,7 @@ class AuthAPI extends UserAPI {
                      );
                      return $result;
                   }
-                     return $response->error500();
-                  return "El usuario esta activo";
+                  return $response->error500();
                }
                return $response->error200("El usuario esta inactivo");
             } 
