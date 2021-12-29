@@ -1,0 +1,10 @@
+{
+   "conexion": {
+      "server" : "http://localhost",
+      "user" : "root",
+      "password" : "root123",
+      "db" : "apirest",
+      "port" : "3307",
+      "charset" : "utf8mb4"
+   }
+}
