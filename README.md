@@ -21,7 +21,7 @@ Body:
 }
 
 GET/ paciente?page=[numero de pagina] => Paginacion al solicitar la lista de pacientes(10 registros por pagina)
-Respuesta: Json con todos los pacientes
+Respuesta: Lista de pacientes del numero de pagina requerido
 
 GET/ paciente?id=[id de paciente] => Busqueda de datos de paciente por id
 Respuesta:
